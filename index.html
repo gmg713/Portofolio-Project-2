@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Personal Portofolio</title>
+        <script src="https://kit.fontawesome.com/f2ade577fd.js" crossorigin="anonymous"></script>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+</head>
+    <body>
+        <header>
+            <a href="#" class="logo">Portofolio</a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+                <ul class="menu">
+                    <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+                    <li><a href="#about" onclick="toggleMenu();">About</a></li>
+                    <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+                    <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+                    <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+                    <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+                </ul>
+            
+        </header>
+        <section class="banner" id="home">
+            <div class="textBx">
+                <h2>Hello, I'm<br><span>Gabriel Ghiorghita.</span></h2>
+                <h3>I'm a FullStack Engineer.</h3>
+                <a href="#about" class="btn">About Me</a>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="heading">
+                <h2>About Me</h2>
+            </div>
+            <div class="content">
+                <div class="contentBx w50">
+                    <h3>I'm a FullStack Engineer.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec molestie purus. Vestibulum mattis consequat nunc quis fringilla. Sed metus nunc, pulvinar et nulla vitae, maximus fermentum dui. Vestibulum ut velit blandit, molestie libero non, lacinia est. Curabitur dui nulla, interdum in orci quis, lacinia rutrum dolor. Nulla tincidunt convallis suscipit. Vivamus commodo efficitur bibendum. Praesent eget sapien nec massa placerat porttitor. Aenean convallis lacinia mauris, id sagittis nulla ultrices sit amet. Nulla in augue sed ex faucibus euismod a ac ipsum. Fusce vehicula pharetra nisi, vitae venenatis odio viverra in. Sed felis ipsum, pharetra non risus sit amet, semper vulputate diam. Sed ac enim condimentum, volutpat erat ut, sagittis libero. Etiam sed est hendrerit, aliquet lectus quis, pellentesque quam. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec molestie purus. Vestibulum mattis consequat nunc quis fringilla. Sed metus nunc, pulvinar et nulla vitae, maximus fermentum dui. Vestibulum ut velit blandit, molestie libero non, lacinia est. Curabitur dui nulla, interdum in orci quis, lacinia rutrum dolor. Nulla tincidunt convallis suscipit. Vivamus commodo efficitur bibendum. Praesent eget sapien nec massa placerat porttitor. Aenean convallis lacinia mauris, id sagittis nulla ultrices sit amet. Nulla in augue sed ex faucibus euismod a ac ipsum. Fusce vehicula pharetra nisi, vitae venenatis odio viverra in. Sed felis ipsum, pharetra non risus sit amet, semper vulputate diam. Sed ac enim condimentum, volutpat erat ut, sagittis libero. Etiam sed est hendrerit, aliquet lectus quis, pellentesque quam.</p>
+                </div>
+                <div class="w50">
+                    <img src="./img/img1.jpg" class="img">
+                </div>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="heading white">
+                <h2>My Services</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="content">
+                <div class="servicesBx">
+                <img src="./img/web-design.png">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./img/smartphone.png">
+                <h2>Apps</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./img/coding.png">
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./img/video-marketing.png">
+                <h2>Video Editing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            </div>
+        </section>
+        <section class="work" id="work">
+            <div class="heading">
+                <h2>My Latest Work</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="content">
+                <div class="workBx">
+                    <img src="./img/work2.jpg">
+                </div>
+                <div class="workBx">
+                    <img src="./img/work1.jpg">
+                </div>
+                <div class="workBx">
+                    <img src="./img/work3.jpg">
+                </div>
+            </div>
+            <div class="heading">
+                <a href="#" class="btn">View More</a>
+            </div>
+        </section>
+        <section class="testimonial" id="testimonial">
+            <div class="heading white">
+                <h2>Testimonial</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="content">
+                <div class="testimonialBx">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Alex Michael<br><span>Creative Designer</span></h3>
+                </div>
+                <div class="testimonialBx">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Alex Michael<br><span>Creative Designer</span></h3>
+                </div>
+                <div class="testimonialBx">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Alex Michael<br><span>Creative Designer</span></h3>
+                </div>
+                <div class="testimonialBx">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Alex Michael<br><span>Creative Designer</span></h3>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="heading">
+                <h2>Contact Me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="content">
+                <div class="contactInfo">
+                    <h3>Contact Info</h3>
+                    <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>10 The Avenue,<br> London,<br>W65 9VZ</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>03344448</p>
+                        </div>
+                    </div>  
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>Ghiorghita.gabriel22@yahoo.com</p>
+                        </div>
+                    </div>                          
+                    </div>
+                </div>
+                <div class="formBx">
+                    <form>
+                        <h3>Message Me</h3>
+                        <input type="text" name="" placeholder="Full Name">
+                        <input type="email" name="" placeholder="Email">
+                        <textarea placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="copyright">
+            <p>Copyright &copy; Gabriel Ghiorghita. All Right Reserved.</p>
+        </div>
+        <script type="text/javascript">
+            window.addEventListener('scroll', function(){
+                var header = document.querySelector('header');
+                header.classList.toggle('sticky', window.scrollY > 0);
+            });
+
+            function toggleMenu(){
+                var menuToggle = document.querySelector('.toggle');
+                var menu = document.querySelector('.menu');
+                menuToggle.classList.toggle('active');
+                menu.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
